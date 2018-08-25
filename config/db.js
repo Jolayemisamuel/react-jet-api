@@ -1,8 +1,8 @@
 //javascript
 const mongoose = require("mongoose");
-const connectURI=require('./connectURI');
+const connectURI=require('./dburi');
 
-const dbURI = connectURI.Uri;
+const dbURI = connectURI;
  
 
 const options = {
